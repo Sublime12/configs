@@ -1,0 +1,24 @@
+[user]
+	name = Sublime Tshimpangila
+	email = tshimangasublime@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	gr = log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+	stats = shortlog -s -n --all
+[core]
+	precomposeunicode = true
+	editor = vim
+[push]
+	default = simple
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
